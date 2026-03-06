@@ -1,20 +1,59 @@
-body {
-    background-color: #0a1f44;
-    font-family: Arial, sans-serif;
-    color: white;
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
-
-h1 {
-    color: #ffd84d;
+ 
+.hero {
+  height: 100vh;
+  background-image: url("../images/coral-home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-nav {
-    background-color: #5b3cc4;
-    padding: 10px;
+ 
+.glass-bar {
+  display: flex;
+  gap: 25px;
+  padding: 25px 35px;
+ 
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
-
-a {
-    color: #ffd84d;
-    text-decoration: none;
-    margin: 10px;
+ 
+.menu-item {
+  text-decoration: none;
+  color: #082c6c;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 18px 28px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+ 
+.menu-item:hover {
+  background-color: #ffe066;
+  transform: scale(1.05);
+}
+ 
+/* Für Handy */
+@media screen and (max-width: 768px) {
+  .glass-bar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+ 
+  .menu-item {
+    text-align: center;
+    font-size: 18px;
+  }
 }
