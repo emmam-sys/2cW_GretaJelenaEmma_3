@@ -63,3 +63,23 @@ nav a:hover {
 
     letter-spacing: 5px;    /* Abstand zwischen Buchstaben */
 }
+
+/*Bild und so*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+ 
+body {
+  background-image: url("../images/bild-homepage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
