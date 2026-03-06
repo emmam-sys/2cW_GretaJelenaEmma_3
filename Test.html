@@ -1,19 +1,81 @@
-<head>
-    <title>ReCoral</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+/*Menü*/
 
+nav a {
+    color: #ffd84d;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 15px;
+    font-weight: bold;
+}
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>ReCoral</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+nav a:hover {
+    color: white;
+}
 
-<body>
+/* Menü oben auf der Seite */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* transparent weiss */
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(6px); /* Glas Effekt */
+}
 
-<h1>ReCoral</h1>
+/* Menüleiste oben*/
 
-</body>
-</html>
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd84d;
+}
+
+/* irgendwie damit es nicht über den inalt geht*/
+
+body {
+    margin: 0;
+    padding-top: 80px;
+}
+
+/*Bild und so*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+ 
+body {
+  background-image: url("../images/bild-homepage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.title-box {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 20px 50px;
+  border-radius: 18px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+ 
+.title-box h1 {
+  margin: 0;
+  color: white;
+  font-size: 64px;
+  letter-spacing: 2px;
+  text-align: center;
+}
