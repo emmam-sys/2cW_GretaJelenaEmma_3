@@ -43,15 +43,19 @@ nav a:hover {
    ReCoral Titel in der Mitte
 ------------------------------ */
 
+/* Titel */
+.title-box {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .titel {
-    position: absolute;                /* freie Positionierung */
-    top: 35%;                          /* etwas oberhalb der Mitte */
-    left: 50%;                         /* horizontal zentrieren */
-    transform: translate(-50%, -50%);  /* exakte Zentrierung */
-    font-size: 90px;                    /* große Schrift */
-    color: rgba(255, 255, 255, 0.5);   /* halbtransparente weiße Schrift (0.0 bis 1.0) */
-    text-align: center;                 /* Text zentrieren */
-    letter-spacing: 5px;                /* Abstand zwischen Buchstaben */
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.5); /* halbtransparente weiße Schrift */
+    letter-spacing: 5px;
 }
 
 /*Bild und so*/
