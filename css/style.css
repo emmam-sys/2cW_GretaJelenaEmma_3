@@ -44,24 +44,14 @@ nav a:hover {
 ------------------------------ */
 
 .titel {
-
-    position: absolute;     /* erlaubt freie Positionierung */
-
-    top: 35%;               /* etwas oberhalb der Mitte */
-
-    left: 50%;              /* horizontal in die Mitte */
-
-    transform: translate(-50%, -50%);  
-    /* sorgt dafür, dass der Text exakt zentriert ist */
-
-    font-size: 90px;        /* grosse Schrift */
-
-    color: rgba(255,255,255,0.7);  
-    /* transparente weisse Schrift */
-
-    text-align: center;     /* Text zentrieren */
-
-    letter-spacing: 5px;    /* Abstand zwischen Buchstaben */
+    position: absolute;                /* freie Positionierung */
+    top: 35%;                          /* etwas oberhalb der Mitte */
+    left: 50%;                         /* horizontal zentrieren */
+    transform: translate(-50%, -50%);  /* exakte Zentrierung */
+    font-size: 90px;                    /* große Schrift */
+    color: rgba(255, 255, 255, 0.5);   /* halbtransparente weiße Schrift (0.0 bis 1.0) */
+    text-align: center;                 /* Text zentrieren */
+    letter-spacing: 5px;                /* Abstand zwischen Buchstaben */
 }
 
 /*Bild und so*/
