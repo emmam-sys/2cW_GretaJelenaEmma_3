@@ -1,35 +1,29 @@
-/*Menü*/
+/* ------------------------------
+   Allgemeines Design der Website
+------------------------------ */
 
-nav {
-    background-color: #5b3cc4;
-    padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    color: #ffd84d;
-    text-decoration: none;
-    font-size: 18px;
-    margin: 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
+body {
+    margin: 0;                 /* Entfernt Standardabstand vom Browser */
+    padding-top: 80px;         /* Platz für das Menü oben */
+    font-family: Arial, sans-serif;
     color: white;
 }
 
-/* Menü oben auf der Seite */
+/* ------------------------------
+   Menü oben (Navigation)
+------------------------------ */
+
 nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.3); /* transparent weiss */
+    position: fixed;                       /* Menü bleibt oben fixiert */
+    top: 0;                                /* ganz oben */
+    width: 100%;                           /* über ganze Bildschirmbreite */
+    background-color: rgba(255,255,255,0.3); /* transparent weiss */
     padding: 20px;
-    text-align: center;
-    backdrop-filter: blur(6px); /* Glas Effekt */
+    text-align: center;                    /* Links zentrieren */
+    backdrop-filter: blur(6px);            /* leichter Glas Effekt */
 }
 
-/* Menüleiste oben*/
+/* Links im Menü */
 
 nav a {
     color: white;
@@ -39,49 +33,33 @@ nav a {
     font-weight: bold;
 }
 
+/* Farbe wenn man mit der Maus darüber fährt */
+
 nav a:hover {
     color: #ffd84d;
 }
 
-/* irgendwie damit es nicht über den inalt geht*/
+/* ------------------------------
+   ReCoral Titel in der Mitte
+------------------------------ */
 
-body {
-    margin: 0;
-    padding-top: 80px;
-}
+.titel {
 
-/*Bild und so*/
+    position: absolute;     /* erlaubt freie Positionierung */
 
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
- 
-body {
-  background-image: url("../images/bild-homepage.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
- 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
- 
-.title-box {
-  background: rgba(255, 255, 255, 0.25);
-  padding: 20px 50px;
-  border-radius: 18px;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
- 
-.title-box h1 {
-  margin: 0;
-  color: white;
-  font-size: 64px;
-  letter-spacing: 2px;
-  text-align: center;
+    top: 35%;               /* etwas oberhalb der Mitte */
+
+    left: 50%;              /* horizontal in die Mitte */
+
+    transform: translate(-50%, -50%);  
+    /* sorgt dafür, dass der Text exakt zentriert ist */
+
+    font-size: 90px;        /* grosse Schrift */
+
+    color: rgba(255,255,255,0.7);  
+    /* transparente weisse Schrift */
+
+    text-align: center;     /* Text zentrieren */
+
+    letter-spacing: 5px;    /* Abstand zwischen Buchstaben */
 }
