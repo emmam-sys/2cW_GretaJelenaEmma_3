@@ -1,3 +1,25 @@
+/*Menü*/
+
+nav {
+    background-color: #5b3cc4;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd84d;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/*Bild und so*/
+
 html, body {
   height: 100%;
   margin: 0;
