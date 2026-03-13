@@ -152,7 +152,7 @@ border-radius: 10px;
 
 /*Gemeinsam geben wir... und slogan lila*/
 
-.erfolgeslogan h2{
+.slogan h2{
 font-size:24px;
 font-weight:bold;   /* gleiche Dicke wie Slogan */
 color:#f4d03f;      /* gleiches Gelb wie andere Überschriften */
