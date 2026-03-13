@@ -95,3 +95,100 @@ color: rgba(255,255,255,0.5);
 letter-spacing: 5px;
 
 }
+
+
+/* =====================================
+Content der Homepage (unter dem Titel)
+===================================== */
+
+.content{
+
+margin-top: 100vh; 
+/* sorgt dafür dass der Inhalt erst erscheint,
+   wenn man eine Bildschirmhöhe runter scrollt */
+
+padding: 100px 15%;
+
+}
+
+
+/* Einleitung */
+
+.intro{
+
+max-width: 800px;
+margin: auto;
+
+text-align: center;
+
+margin-bottom: 80px;
+
+}
+
+
+/* Bild + Text nebeneinander */
+
+.info-section{
+
+display: flex;
+
+gap: 60px;
+
+align-items: center;
+
+margin-bottom: 80px;
+
+}
+
+
+/* Bild */
+
+.image-box img{
+
+width: 400px;
+
+border-radius: 10px;
+
+}
+
+
+/* Text rechts */
+
+.text-box{
+
+max-width: 500px;
+
+}
+
+
+/* Slogan */
+
+.slogan{
+
+text-align: center;
+
+font-size: 22px;
+
+margin: 80px 0;
+
+font-weight: bold;
+
+}
+
+
+/* News */
+
+.news{
+
+margin-bottom: 80px;
+
+}
+
+
+/* Ziele */
+
+.goals{
+
+margin-bottom: 80px;
+
+}
