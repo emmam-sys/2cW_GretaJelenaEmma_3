@@ -90,17 +90,21 @@ border-radius: 10px;
     margin-top: 100px;
 }
 
-/* Titel und Ziele Präsenter*/
+/* Ziele Präsenter*/
 
-/* Unsere Ziele Bereich hervorheben */
+/* Aufzählungspunkte entfernen */
+.goals ul {
+    list-style: none;      /* entfernt die Punkte */
+    padding-left: 0;       /* entfernt linken Abstand */
+}
+
+/* Ziele-Bereich zentrieren */
 .goals {
     text-align: center;
-    margin-top: 100px;
 }
 
-/* Titel größer machen */
-.goals h2 {
-    font-size: 38px;
-    margin-bottom: 20px;
+/* Liste sauber ausrichten */
+.goals ul {
+    display: inline-block;  /* sorgt für saubere Zentrierung */
+    text-align: left;       /* Text bleibt links ausgerichtet */
 }
-
