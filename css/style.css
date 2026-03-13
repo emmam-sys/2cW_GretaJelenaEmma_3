@@ -1,175 +1,81 @@
-
 /* ------------------------------
-Allgemeines Design
------------------------------- */
-
-html, body {
-
-height: 100%;
-margin: 0;
-font-family: Arial, sans-serif;
-color: white;
-
-}
-
-/* ------------------------------
-Hintergrundbild
+   Allgemeines Design der Website
 ------------------------------ */
 
 body {
-
-background-image: url("../images/bild-homepage.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-
+    margin: 0;                 /* Entfernt Standardabstand vom Browser */
+    padding-top: 80px;         /* Platz für das Menü oben */
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
 /* ------------------------------
-Navigation Menü
+   Menü oben (Navigation)
 ------------------------------ */
 
 nav {
-
-position: fixed;
-top: 0;
-width: 100%;
-
-background-color: rgba(255,255,255,0.3);
-
-padding: 20px;
-
-text-align: center;
-
-backdrop-filter: blur(6px);
-
+    position: fixed;                       /* Menü bleibt oben fixiert */
+    top: 0;                                /* ganz oben */
+    width: 100%;                           /* über ganze Bildschirmbreite */
+    background-color: rgba(255,255,255,0.3); /* transparent weiss */
+    padding: 20px;
+    text-align: center;                    /* Links zentrieren */
+    backdrop-filter: blur(6px);            /* leichter Glas Effekt */
 }
+
+/* Links im Menü */
 
 nav a {
-
-color: white;
-text-decoration: none;
-
-font-size: 18px;
-
-margin: 25px;
-
-font-weight: bold;
-
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 25px;
+    font-weight: bold;
 }
 
+/* Farbe wenn man mit der Maus darüber fährt */
+
 nav a:hover {
-
-color: #ffd84d;
-
+    color: #ffd84d;
 }
 
 /* ------------------------------
-Titel
+   ReCoral Titel in der Mitte
 ------------------------------ */
 
+/* Titel */
 .title-box {
-
-position: absolute;
-
-top: 55%;
-left: 50%;
-
-transform: translate(-50%, -50%);
-
-text-align: center;
-
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .titel {
-
-font-size: 60px;
-
-color: rgba(255,255,255,0.5);
-
-letter-spacing: 5px;
-
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.5); /* halbtransparente weiße Schrift */
+    letter-spacing: 5px;
 }
 
-/*Unterstützen sie uns seite*/
+/*Bild und so*/
 
-body{
- 
-background-image: url("images/bild-homepage.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
- 
-font-family: Arial;
-text-align: center;
-margin: 0;
- 
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
  
-nav{
+body {
+  background-image: url("../images/bild-homepage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
  
-background-color: rgba(0,0,0,0.7);
-padding: 15px;
- 
-}
- 
-nav a{
- 
-color: white;
-margin: 20px;
-text-decoration: none;
-font-size: 18px;
- 
-}
- 
-h1{
- 
-color: white;
-margin-top: 40px;
- 
-}
- 
-.text{
- 
-color: white;
-width: 60%;
-margin: auto;
-margin-top: 20px;
- 
-}
- 
-.formular{
- 
-display: flex;
-justify-content: center;
-margin-top: 40px;
- 
-}
- 
-form{
- 
-background-color: rgba(255,255,255,0.9);
-padding: 20px;
-border-radius: 10px;
-width: 300px;
-text-align: left;
- 
-}
- 
-input, textarea{
- 
-width: 100%;
-margin-top: 5px;
-padding: 8px;
- 
-}
- 
-button{
- 
-width: 100%;
-padding: 10px;
-margin-top: 10px;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
