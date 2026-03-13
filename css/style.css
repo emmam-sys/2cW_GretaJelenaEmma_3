@@ -1,197 +1,87 @@
-/* ------------------------------
-Allgemeines Design
------------------------------- */
-
-html, body {
-
-margin: 0;  
-font-family: Arial, sans-serif;
-color: black;
-
+/* Grundlayout */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
-
-/* ------------------------------
-Hintergrundbild
------------------------------- */
 
 body {
+font-family: Arial, sans-serif;
+color: white;
 
-background-image: url("../images/bild-homepage.png");
+/* Hintergrundbild fix für ganze Seite */
+background: url("../images/bild-homepage.png") no-repeat center center fixed;
 background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed; /* <-- DAS ist wichtig */
 }
 
-
-
-/* ------------------------------
-Navigation Menü
------------------------------- */
-
+/* Navigation */
 nav {
-
 position: fixed;
 top: 0;
 width: 100%;
-
-background-color: rgba(255,255,255,0.3);
-
 padding: 20px;
-
 text-align: center;
-
+background-color: rgba(0, 0, 0, 0.4);
 backdrop-filter: blur(6px);
-
+z-index: 1000;
 }
-
 
 nav a {
-
 color: white;
 text-decoration: none;
-
-font-size: 18px;
-
-margin: 25px;
-
+margin: 20px;
 font-weight: bold;
-
 }
-
 
 nav a:hover {
-
 color: #ffd84d;
-
 }
 
-
-/* ------------------------------
-Titel
------------------------------- */
-
-.title-box {
-
-position: absolute;
-
-top: 55%;
-left: 50%;
-
-transform: translate(-50%, -50%);
-
+/* Hero Titel Bereich */
+.hero {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 text-align: center;
-
 }
 
-
-.titel {
-
-font-size: 60px;
-
-color: rgba(255,255,255,0.5);
-
+.hero h1 {
+font-size: 70px;
 letter-spacing: 5px;
-
 }
 
-/*test homepage*/
+.hero p {
+font-size: 22px;
+margin-top: 10px;
+}
 
-/* =====================================
-Content der Homepage (unter dem Titel)
-===================================== */
-
-.content{
-
-margin-top: 100vh; 
-/* sorgt dafür dass der Inhalt erst erscheint,
-   wenn man eine Bildschirmhöhe runter scrollt */
-
+/* Inhalt */
+.content {
 padding: 100px 15%;
-
+background-color: rgba(0, 0, 0, 0.5); /* leichte Lesbarkeit */
 }
 
-
-/* Einleitung */
-
-.intro{
-
-max-width: 800px;
-margin: auto;
-
-text-align: center;
-
+/* Abschnitte */
+.section {
 margin-bottom: 80px;
-
 }
 
+.section h2 {
+margin-bottom: 20px;
+}
 
 /* Bild + Text nebeneinander */
-
-.info-section{
-
+.flex-section {
 display: flex;
-
-gap: 60px;
-
+gap: 50px;
 align-items: center;
-
-margin-bottom: 80px;
-
 }
 
-
-/* Bild */
-
-.image-box img{
-
+.flex-section img {
 width: 400px;
-
 border-radius: 10px;
-
-}
-
-
-/* Text rechts */
-
-.text-box{
-
-max-width: 500px;
-
-}
-
-
-/* Slogan */
-
-.slogan{
-
-text-align: center;
-
-font-size: 22px;
-
-margin: 80px 0;
-
-font-weight: bold;
-
-}
-
-
-/* News */
-
-.news{
-
-margin-bottom: 80px;
-
-}
-
-
-/* Ziele */
-
-.goals{
-
-margin-bottom: 80px;
-
 }
 
 /*Unterstützen sie uns seite*/
