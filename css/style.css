@@ -133,3 +133,17 @@ border-radius: 10px;
 .goals p {
     margin-top: 0.5cm;      /* halber cm Abstand */
 }
+
+
+
+
+/* Über uns Seite*/
+
+
+
+/* Titel für alle Unterseiten */
+.page-title {
+    text-align: center;   /* mittig */
+    margin-top: 120px;    /* Abstand nach oben wegen Navigation */
+    font-size: 40px;      /* größer machen */
+}
