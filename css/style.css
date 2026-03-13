@@ -95,3 +95,84 @@ color: rgba(255,255,255,0.5);
 letter-spacing: 5px;
 
 }
+
+/*Unterstützen sie uns seite*/
+
+body{
+ 
+background-image: url("images/bild-homepage.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+ 
+font-family: Arial;
+text-align: center;
+margin: 0;
+ 
+}
+ 
+nav{
+ 
+background-color: rgba(0,0,0,0.7);
+padding: 15px;
+ 
+}
+ 
+nav a{
+ 
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 18px;
+ 
+}
+ 
+h1{
+ 
+color: white;
+margin-top: 40px;
+ 
+}
+ 
+.text{
+ 
+color: white;
+width: 60%;
+margin: auto;
+margin-top: 20px;
+ 
+}
+ 
+.formular{
+ 
+display: flex;
+justify-content: center;
+margin-top: 40px;
+ 
+}
+ 
+form{
+ 
+background-color: rgba(255,255,255,0.9);
+padding: 20px;
+border-radius: 10px;
+width: 300px;
+text-align: left;
+ 
+}
+ 
+input, textarea{
+ 
+width: 100%;
+margin-top: 5px;
+padding: 8px;
+ 
+}
+ 
+button{
+ 
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+ 
+}
