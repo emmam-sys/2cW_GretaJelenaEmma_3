@@ -4,8 +4,7 @@ Allgemeines Design
 
 html, body {
 
-height: 100%;
-margin: 0;
+margin: 0;  
 font-family: Arial, sans-serif;
 color: white;
 
@@ -22,8 +21,20 @@ background-image: url("../images/bild-homepage.png");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+background-attachment: fixed; /* <-- DAS ist wichtig */
+}
+
+/*das löschen falls es in box ist*/
+
+.intro, .image-box, .text-box {
+
+background-color: rgba(0, 0, 0, 0.6);
+padding: 30px;
+border-radius: 15px;
 
 }
+
+/*bis hier*/
 
 
 /* ------------------------------
