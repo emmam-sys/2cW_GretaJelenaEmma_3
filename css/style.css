@@ -43,14 +43,14 @@ color: #ffd84d;
 /* Titel */
 .title-box {
 position: absolute;
-top: 55%;
+top: 58%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
 }
 
 .titel {
-font-size: 80px;
+font-size: 75px;
 letter-spacing: 5px;
 }
 
