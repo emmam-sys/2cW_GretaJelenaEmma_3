@@ -154,12 +154,14 @@ border-radius: 10px;
 
 .subtitle{
 font-size:24px;
-font-weight:500;
-color:#4b2e83; /* dunkellila */
+font-weight:bold;   /* gleiche Dicke wie Slogan */
+color:#f4d03f;      /* gleiches Gelb wie andere Überschriften */
+text-align:center;
 }
 
 .slogan h2{
-color:#4b2e83; /* dunkellila */
+color:#f4d03f;
+font-weight:bold;
 }
 
 /*Jelena*/
