@@ -90,4 +90,17 @@ border-radius: 10px;
     margin-top: 100px;
 }
 
+/* Titel und Ziele Präsenter*/
+
+/* Unsere Ziele Bereich hervorheben */
+.goals {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Titel größer machen */
+.goals h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
 
