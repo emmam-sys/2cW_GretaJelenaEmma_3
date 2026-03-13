@@ -18,15 +18,10 @@ Hintergrundbild
 
 body {
 
-body {
-
 background-image: url("../images/bild-homepage.png");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-background-attachment: fixed; /* <-- DAS ist wichtig */
-
-}
 
 }
 
@@ -98,63 +93,5 @@ font-size: 60px;
 color: rgba(255,255,255,0.5);
 
 letter-spacing: 5px;
-
-}
-
-
-/* =====================================
-Content der Homepage (unter dem Titel)
-===================================== */
-
-.content{
-
-margin-top: 100vh;
-
-padding: 100px 15%;
-
-}
-
-
-/* Einleitung */
-
-.intro{
-
-max-width: 800px;
-margin: auto;
-
-text-align: center;
-
-margin-bottom: 80px;
-
-}
-
-
-/* Bild + Text nebeneinander */
-
-.info-section{
-
-display: flex;
-
-gap: 60px;
-
-align-items: center;
-
-margin-bottom: 80px;
-
-}
-
-
-.image-box img{
-
-width: 400px;
-
-border-radius: 10px;
-
-}
-
-
-.text-box{
-
-max-width: 500px;
 
 }
