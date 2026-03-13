@@ -7,6 +7,7 @@ box-sizing: border-box;
 
 body {
 font-family: Arial, sans-serif;
+ font-size: 18px; 
 color: white;
 
 /* Fixer Hintergrund */
