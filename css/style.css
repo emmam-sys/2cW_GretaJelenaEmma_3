@@ -18,10 +18,15 @@ Hintergrundbild
 
 body {
 
+body {
+
 background-image: url("../images/bild-homepage.png");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+background-attachment: fixed; /* <-- DAS ist wichtig */
+
+}
 
 }
 
