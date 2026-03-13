@@ -152,202 +152,104 @@ border-radius: 10px;
 
 /*Jelena*/
 
-/* ========================================
-   ERFOLGE SEITE - HINTERGRUND
-   Gleiches Hintergrundbild wie auf der Homepage
-======================================== */
- 
+/* ================================
+ERFOLGE SEITE
+================================ */
 
- 
-/* ========================================
-   VIDEO BEREICH
-======================================== */
- 
-.video-section {
-  max-width: 1000px;
-  margin: 0 auto 60px auto;
-  text-align: center;
+.erfolge-page{
+max-width:1100px;
+margin:0 auto;
+padding:60px 20px;
 }
- 
-.video-section h2 {
-  margin-bottom: 20px;
+
+/* Untertitel unter "Erfolge" */
+
+.erfolge-header{
+text-align:center;
+margin-top:40px;
+margin-bottom:60px;
 }
- 
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+
+.subtitle{
+font-size:24px;
+font-weight:500;
 }
- 
-.video-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  border: 0;
+
+/* Video Bereich */
+
+.video-section{
+max-width:1000px;
+margin:0 auto 70px auto;
+text-align:center;
 }
- 
-/* ========================================
-   ZUSAMMENARBEIT / EXTERNER LINK
-======================================== */
- 
-.partner-link-section {
-  max-width: 900px;
-  margin: 0 auto 60px auto;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.12);
-  padding: 30px;
-  border-radius: 18px;
-  backdrop-filter: blur(5px);
+
+.section-title{
+margin-bottom:30px;
+margin-top:40px;
 }
- 
-.external-link-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 14px 26px;
-  background-color: #f4d03f;
-  color: #082c6c;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 10px;
-  transition: 0.3s;
+
+.video-container{
+position:relative;
+width:100%;
+padding-bottom:56.25%;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 8px 25px rgba(0,0,0,0.35);
 }
- 
-.external-link-button:hover {
-  background-color: #ffe66d;
-  transform: scale(1.04);
+
+.video-container iframe{
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+top:0;
+border:0;
 }
- 
-/* ========================================
-   ERFOLGE - 4 BEISPIELE
-======================================== */
- 
-.success-examples {
-  max-width: 1100px;
-  margin: 0 auto 60px auto;
-  text-align: center;
+
+/* Zusammenarbeit */
+
+.partner-link-section{
+max-width:900px;
+margin:0 auto 70px auto;
+text-align:center;
+background:rgba(255,255,255,0.12);
+padding:30px;
+border-radius:18px;
+backdrop-filter:blur(5px);
 }
- 
-.success-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-top: 25px;
+
+.external-link-button{
+display:inline-block;
+margin-top:20px;
+padding:14px 26px;
+background-color:#f4d03f;
+color:#082c6c;
+text-decoration:none;
+font-weight:bold;
+border-radius:10px;
+transition:0.3s;
 }
- 
-.success-card {
-  background: rgba(255, 255, 255, 0.14);
-  padding: 25px 18px;
-  border-radius: 18px;
-  backdrop-filter: blur(5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+
+.external-link-button:hover{
+background-color:#ffe66d;
+transform:scale(1.04);
 }
- 
-.success-card h3 {
-  margin-top: 0;
-  color: #ffe66d;
+
+/* Medien */
+
+.media-section{
+max-width:900px;
+margin:0 auto;
+text-align:center;
 }
- 
-/* ========================================
-   ZAHLEN / STATISTIK
-======================================== */
- 
-.numbers-section {
-  max-width: 1100px;
-  margin: 0 auto 60px auto;
-  text-align: center;
+
+.media-section h2{
+margin-bottom:20px;
 }
- 
-.numbers-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-top: 25px;
-}
- 
-.number-box {
-  background: rgba(255, 255, 255, 0.14);
-  padding: 25px 18px;
-  border-radius: 18px;
-  backdrop-filter: blur(5px);
-}
- 
-.number-box h3 {
-  font-size: 38px;
-  margin: 0 0 10px 0;
-  color: #f4d03f;
-}
- 
-/* ========================================
-   PARTNER
-======================================== */
- 
-.partners-section {
-  max-width: 900px;
-  margin: 0 auto 60px auto;
-  text-align: center;
-}
- 
-.partners-list {
-  list-style: none;
-  padding: 0;
-  margin-top: 25px;
-}
- 
-.partners-list li {
-  background: rgba(255, 255, 255, 0.14);
-  margin: 12px 0;
-  padding: 16px;
-  border-radius: 12px;
-}
- 
-/* ========================================
-   MEDIEN
-======================================== */
- 
-.media-section {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
- 
-.media-box {
-  background: rgba(255, 255, 255, 0.14);
-  padding: 30px;
-  border-radius: 18px;
-  backdrop-filter: blur(5px);
-}
- 
-/* ========================================
-   RESPONSIVE DESIGN
-======================================== */
- 
-@media screen and (max-width: 900px) {
-  .success-grid,
-  .numbers-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
- 
-  .erfolge-header h1 {
-    font-size: 40px;
-  }
-}
- 
-@media screen and (max-width: 600px) {
-  .success-grid,
-  .numbers-grid {
-    grid-template-columns: 1fr;
-  }
- 
-  .erfolge-header h1 {
-    font-size: 32px;
-  }
- 
-  .erfolge-header p {
-    font-size: 17px;
-  }
+
+.media-box{
+background:rgba(255,255,255,0.14);
+padding:30px;
+border-radius:18px;
+backdrop-filter:blur(5px);
 }
