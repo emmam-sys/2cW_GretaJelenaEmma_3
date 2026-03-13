@@ -98,13 +98,37 @@ border-radius: 10px;
     padding-left: 0;       /* entfernt linken Abstand */
 }
 
-/* Ziele-Bereich zentrieren */
-.goals {
-    text-align: center;
+
+/* ============================= */
+/* Bereich "Unsere Ziele" */
+/* ============================= */
+
+/* Titel größer machen */
+.goals h2 {
+    font-size: 38px;        /* Titel größer */
+    margin-bottom: 20px;    /* Abstand unter dem Titel */
 }
 
-/* Liste sauber ausrichten */
+/* Gesamten Bereich zentrieren */
+.goals {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Liste sauber zentrieren */
 .goals ul {
+    list-style: none;       /* Punkte entfernen */
+    padding-left: 0;        /* linken Abstand entfernen */
     display: inline-block;  /* sorgt für saubere Zentrierung */
-    text-align: left;       /* Text bleibt links ausgerichtet */
+    text-align: left;       /* Text bleibt ordentlich untereinander */
+}
+
+/* Abstand zwischen den einzelnen Aufzählungen */
+.goals li {
+    margin-bottom: 0.25cm;  /* Abstand zwischen den Punkten */
+}
+
+/* Abstand zwischen Liste und folgendem Text */
+.goals p {
+    margin-top: 0.5cm;      /* halber cm Abstand */
 }
