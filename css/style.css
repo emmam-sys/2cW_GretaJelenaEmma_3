@@ -43,7 +43,7 @@ color: #ffd84d;
 /* Titel */
 .title-box {
 position: absolute;
-top: 40%;
+top: 60%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
@@ -69,7 +69,7 @@ margin-top: 50px;
 }
 
 .info-section img {
-width: 400px;
+width: 480px;
 border-radius: 10px;
 }
 
@@ -81,7 +81,7 @@ border-radius: 10px;
 /* Sorgt für bessere Übersichtlichkeit und Lesbarkeit */
 .content h2,
 .content h3 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /* Slogan zentrieren */
