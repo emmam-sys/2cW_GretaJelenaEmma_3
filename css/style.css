@@ -157,45 +157,7 @@ border-radius: 10px;
    Gleiches Hintergrundbild wie auf der Homepage
 ======================================== */
  
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-image: url("../images/bild-homepage.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: white;
-}
- 
-/* ========================================
-   DUNKLE ÜBERLAGERUNG FÜR BESSERE LESBARKEIT
-======================================== */
- 
-.erfolge-page {
-  background: rgba(0, 20, 50, 0.65);
-  min-height: 100vh;
-  padding: 50px 20px;
-}
- 
-/* ========================================
-   ÜBERSCHRIFT OBEN
-======================================== */
- 
-.erfolge-header {
-  text-align: center;
-  margin-bottom: 50px;
-}
- 
-.erfolge-header h1 {
-  font-size: 52px;
-  margin-bottom: 10px;
-}
- 
-.erfolge-header p {
-  font-size: 20px;
-  margin: 0;
-}
+
  
 /* ========================================
    VIDEO BEREICH
