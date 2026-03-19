@@ -319,67 +319,121 @@ text-align:center;
 ERFOLGE SEITE
 ================================ */
 
-.erfolge-page{
-max-width:1100px;
-margin:0 auto;
-padding:60px 20px;
+/* =====================================
+   ERFOLGE SEITE
+===================================== */
+ 
+.page-title {
+  text-align: center;
+  font-size: 56px;
+  color: white;
+  margin-top: 130px;
+  margin-bottom: 25px;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
 }
-
-/* Video Bereich */
-
-.video-section{
-max-width:1000px;
-margin:0 auto 70px auto;
-text-align:center;
+ 
+.erfolge-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 60px 20px;
 }
-
-.section-title{
-margin-bottom:30px;
-margin-top:40px;
+ 
+/* =====================================
+   SLOGAN / EINLEITUNG
+===================================== */
+ 
+.erfolge-header {
+  margin-bottom: 30px;
 }
-
-
+ 
+.slogan-box {
+  background: rgba(255, 255, 255, 0.10);
+  padding: 28px;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+ 
+.slogan-box h2 {
+  margin: 0;
+  color: #ffd84d;
+  font-size: 32px;
+}
+ 
+/* =====================================
+   VIDEO
+===================================== */
+ 
+.video-section {
+  max-width: 1000px;
+  margin: 0 auto 70px auto;
+}
+ 
+.video-box {
+  background: rgba(255, 255, 255, 0.10);
+  padding: 22px;
+  border-radius: 22px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+ 
+.video-container {
+  border-radius: 18px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+ 
 .video-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
-
-
-
-/* Zusammenarbeit */
-
-.partner-link-section{
-max-width:900px;
-margin:0 auto 70px auto;
-text-align:center;
-background:rgba(255,255,255,0.12);
-padding:30px;
-border-radius:18px;
-backdrop-filter:blur(5px);
+ 
+/* =====================================
+   ZUSAMMENARBEIT
+===================================== */
+ 
+.partner-link-section {
+  max-width: 900px;
+  margin: 0 auto 70px auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 30px;
+  border-radius: 18px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
 }
-
-.external-link-button{
-display:inline-block;
-margin-top:20px;
-padding:14px 26px;
-background-color:#f4d03f;
-color:#082c6c;
-text-decoration:none;
-font-weight:bold;
-border-radius:10px;
-transition:0.3s;
+ 
+.partner-link-section h2 {
+  margin-bottom: 18px;
 }
-
-.external-link-button:hover{
-background-color:#ffe66d;
-transform:scale(1.04);
+ 
+.partner-link-section p {
+  line-height: 1.7;
 }
-
-/* ========================================
-   ERFOLGE - 4 BEISPIELE
-======================================== */
+ 
+.external-link-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 26px;
+  background-color: #f4d03f;
+  color: #082c6c;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+ 
+.external-link-button:hover {
+  background-color: #ffe66d;
+  transform: scale(1.04);
+}
+ 
+/* =====================================
+   4 BEISPIELE UNSERER ERFOLGE
+===================================== */
  
 .success-examples {
   max-width: 1100px;
@@ -387,11 +441,14 @@ transform:scale(1.04);
   text-align: center;
 }
  
+.success-examples h2 {
+  margin-bottom: 25px;
+}
+ 
 .success-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  margin-top: 25px;
 }
  
 .success-card {
@@ -404,12 +461,17 @@ transform:scale(1.04);
  
 .success-card h3 {
   margin-top: 0;
+  margin-bottom: 12px;
   color: #ffe66d;
 }
  
-/* ========================================
+.success-card p {
+  line-height: 1.6;
+}
+ 
+/* =====================================
    ZAHLEN / STATISTIK
-======================================== */
+===================================== */
  
 .numbers-section {
   max-width: 1100px;
@@ -417,11 +479,14 @@ transform:scale(1.04);
   text-align: center;
 }
  
+.numbers-section h2 {
+  margin-bottom: 25px;
+}
+ 
 .numbers-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  margin-top: 25px;
 }
  
 .number-box {
@@ -429,6 +494,7 @@ transform:scale(1.04);
   padding: 25px 18px;
   border-radius: 18px;
   backdrop-filter: blur(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 }
  
 .number-box h3 {
@@ -437,9 +503,13 @@ transform:scale(1.04);
   color: #f4d03f;
 }
  
-/* ========================================
+.number-box p {
+  line-height: 1.5;
+}
+ 
+/* =====================================
    PARTNER
-======================================== */
+===================================== */
  
 .partners-section {
   max-width: 900px;
@@ -447,10 +517,14 @@ transform:scale(1.04);
   text-align: center;
 }
  
+.partners-section h2 {
+  margin-bottom: 25px;
+}
+ 
 .partners-list {
   list-style: none;
   padding: 0;
-  margin-top: 25px;
+  margin-top: 0;
 }
  
 .partners-list li {
@@ -458,27 +532,75 @@ transform:scale(1.04);
   margin: 12px 0;
   padding: 16px;
   border-radius: 12px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.20);
 }
-
-/* Medien */
-
-.media-section{
-max-width:900px;
-margin:0 auto;
-text-align:center;
+ 
+/* =====================================
+   MEDIEN
+===================================== */
+ 
+.media-section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
 }
-
-.media-section h2{
-margin-bottom:20px;
+ 
+.media-section h2 {
+  margin-bottom: 20px;
 }
-
-.media-box{
-background:rgba(255,255,255,0.14);
-padding:30px;
-border-radius:18px;
-backdrop-filter:blur(5px);
+ 
+.media-box {
+  background: rgba(255, 255, 255, 0.14);
+  padding: 30px;
+  border-radius: 18px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 }
-
+ 
+.media-box p {
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+ 
+.media-box p:last-child {
+  margin-bottom: 0;
+}
+ 
+/* =====================================
+   RESPONSIVE
+===================================== */
+ 
+@media screen and (max-width: 1000px) {
+  .success-grid,
+  .numbers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .page-title {
+    font-size: 44px;
+  }
+ 
+  .slogan-box h2 {
+    font-size: 26px;
+  }
+}
+ 
+@media screen and (max-width: 650px) {
+  .success-grid,
+  .numbers-grid {
+    grid-template-columns: 1fr;
+  }
+ 
+  .page-title {
+    font-size: 34px;
+    margin-top: 110px;
+  }
+ 
+  .slogan-box h2 {
+    font-size: 22px;
+  }
+}
 
 /* Über uns Seite*/
 
