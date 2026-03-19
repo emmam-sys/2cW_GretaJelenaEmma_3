@@ -325,7 +325,6 @@ margin:0 auto;
 padding:60px 20px;
 }
 
-
 /* Video Bereich */
 
 .video-section{
@@ -345,9 +344,6 @@ margin-top:40px;
     height: 100%;
     object-fit: cover;
 
-    /* Rahmen */
-    border: 3px solid #f4d03f;
-    border-radius: 0; /* rechteckig */
 }
 
 
