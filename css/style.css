@@ -360,7 +360,7 @@ object-fit:cover;
 
 /*Ramen um Bild*/
 
-.info-section img {
+.video-container video {
 width: 480px;
 border-radius: 10px;
 border: 2px solid #f4d03f;
