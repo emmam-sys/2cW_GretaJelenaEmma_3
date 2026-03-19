@@ -1,143 +1,291 @@
-/* Grunddesign */
+/* =====================================
+   GRUNDDESIGN
+===================================== */
+ 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+ 
 body {
-font-family: Arial, sans-serif;
- font-size: 19px; 
-color: white;
-
-/* Fixer Hintergrund */
-background-image: url("../images/bild-homepage.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  color: white;
+ 
+  /* Fixer Hintergrund */
+  background-image: url("../images/bild-homepage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-/* Navigation */
+ 
+ 
+/* =====================================
+   NAVIGATION
+===================================== */
+ 
 nav {
-position: fixed;
-top: 0;
-width: 100%;
-padding: 20px;
-text-align: center;
-background-color: rgba(0,0,0,0.4);
-backdrop-filter: blur(6px);
-z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
 }
-
+ 
 nav a {
-color: white;
-text-decoration: none;
-margin: 25px;
-font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 25px;
+  font-weight: bold;
+  transition: 0.3s;
 }
-
+ 
 nav a:hover {
-color: #ffd84d;
+  color: #ffd84d;
 }
-
-/* Titel */
+ 
+ 
+/* =====================================
+   TITELBEREICH
+===================================== */
+ 
 .title-box {
-position: absolute;
-top: 46%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-
+ 
 .titel {
-font-size: 100px;
-letter-spacing: 5px;
+  font-size: 100px;
+  letter-spacing: 5px;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
 }
-
-/* Inhalt */
+ 
+ 
+/* =====================================
+   HAUPTINHALT
+   Erscheint beim Scrollen
+===================================== */
+ 
 .content {
-margin-top: 100vh;
-padding: 100px 15%;
+  margin-top: 100vh;
+  padding: 100px 12% 80px 12%;
 }
-
-/* Bild + Text */
-.info-section {
-display: flex;
-gap: 50px;
-align-items: center;
-margin-top: 50px;
-}
-
-.info-section img {
-width: 480px;
-border-radius: 10px;
-}
-
+ 
+/* Jeder Hauptblock bekommt Abstand */
 .content > div {
-    margin-top: 1cm;
+  margin-top: 45px;
 }
-
-/* Abstand zwischen Überschrift und Text im Inhaltsbereich */
-/* Sorgt für bessere Übersichtlichkeit und Lesbarkeit */
+ 
+/* Abstand unter Überschriften */
 .content h2,
 .content h3 {
-    margin-bottom: 15px;
+  margin-bottom: 18px;
 }
-
-/* Slogan zentrieren */
+ 
+/* Gemeinsame Optik für Inhaltsboxen */
+.intro,
+.news,
+.goals,
 .slogan {
-    text-align: center;
-    margin-top: 100px;
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
 }
-
-/* Ziele Präsenter*/
-
+ 
+ 
+/* =====================================
+   EINLEITUNG
+===================================== */
+ 
+.intro h2 {
+  font-size: 38px;
+  color: #ffffff;
+}
+ 
+.intro p {
+  line-height: 1.7;
+}
+ 
+ 
+/* =====================================
+   BILD + TEXT
+===================================== */
+ 
+.info-section {
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+  margin-top: 50px;
+}
+ 
+.image-box,
+.text-box {
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 20px;
+  padding: 22px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+ 
+.image-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.info-section img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 14px;
+  display: block;
+}
+ 
+.text-box {
+  flex: 1;
+}
+ 
+.text-box h3 {
+  font-size: 32px;
+  color: #ffe066;
+}
+ 
+.text-box p {
+  line-height: 1.7;
+}
+ 
+ 
+/* =====================================
+   SLOGAN
+===================================== */
+ 
+.slogan {
+  text-align: center;
+  margin-top: 70px;
+}
+ 
+.slogan h2 {
+  color: #ffd84d;
+  font-size: 34px;
+}
+ 
+ 
+/* =====================================
+   AKTUELLES
+===================================== */
+ 
+.news h2 {
+  font-size: 38px;
+  color: #ffffff;
+}
+ 
+.news p {
+  line-height: 1.7;
+}
+ 
+ 
+/* =====================================
+   UNSERE ZIELE
+===================================== */
+ 
+.goals {
+  text-align: center;
+  margin-top: 70px;
+}
+ 
+.goals h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+ 
 /* Aufzählungspunkte entfernen */
 .goals ul {
-    list-style: none;      /* entfernt die Punkte */
-    padding-left: 0;       /* entfernt linken Abstand */
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+  text-align: left;
 }
-
-
-/* ============================= */
-/* Bereich "Unsere Ziele" */
-/* ============================= */
-
-/* Titel größer machen */
-.goals h2 {
-    font-size: 38px;        /* Titel größer */
-    margin-bottom: 20px;    /* Abstand unter dem Titel */
-}
-
-/* Gesamten Bereich zentrieren */
-.goals {
-    text-align: center;
-    margin-top: 100px;
-}
-
-/* Liste sauber zentrieren */
-.goals ul {
-    list-style: none;       /* Punkte entfernen */
-    padding-left: 0;        /* linken Abstand entfernen */
-    display: inline-block;  /* sorgt für saubere Zentrierung */
-    text-align: left;       /* Text bleibt ordentlich untereinander */
-}
-
-/* Abstand zwischen den einzelnen Aufzählungen */
+ 
 .goals li {
-    margin-bottom: 0.25cm;  /* Abstand zwischen den Punkten */
+  margin-bottom: 12px;
+  font-size: 21px;
 }
-
-/* Abstand zwischen Liste und folgendem Text */
+ 
 .goals p {
-    margin-top: 0.5cm;      /* halber cm Abstand */
+  margin-top: 18px;
 }
-
-/* unten Abstand*/
-
-.goals-text{
-margin-top:0.7cm;
+ 
+.goals-text {
+  margin-top: 0.7cm;
+  line-height: 1.7;
+}
+ 
+ 
+/* =====================================
+   RESPONSIVE DESIGN
+===================================== */
+ 
+@media screen and (max-width: 1000px) {
+  .titel {
+    font-size: 72px;
+  }
+ 
+  .content {
+    padding: 80px 8% 60px 8%;
+  }
+ 
+  .info-section {
+    flex-direction: column;
+  }
+ 
+  .info-section img {
+    max-width: 100%;
+  }
+}
+ 
+@media screen and (max-width: 700px) {
+  nav {
+    padding: 16px 8px;
+  }
+ 
+  nav a {
+    margin: 10px;
+    font-size: 15px;
+  }
+ 
+  .titel {
+    font-size: 52px;
+    letter-spacing: 3px;
+  }
+ 
+  .intro h2,
+  .news h2,
+  .goals h2 {
+    font-size: 30px;
+  }
+ 
+  .text-box h3 {
+    font-size: 26px;
+  }
+ 
+  .slogan h2 {
+    font-size: 26px;
+  }
+ 
+  body {
+    font-size: 17px;
+  }
 }
 
 
