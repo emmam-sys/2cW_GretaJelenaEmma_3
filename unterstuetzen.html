@@ -32,9 +32,6 @@
 
 <form class="member-form" action="https://formspree.io/f/mlgpvgev" method="POST">
 
-<!-- 🔥 HIER URL ANPASSEN -->
-<input type="hidden" name="_redirect" value="http://localhost/unterstuetzen.html">
-
 <label for="name1">Name</label>
 <input type="text" id="name1" name="name" placeholder="Ihr Name" required>
 
@@ -61,8 +58,6 @@
 
 <form class="member-form" action="https://formspree.io/f/xkoqeooo" method="POST">
 
-<!-- 🔥 HIER URL ANPASSEN -->
-<input type="hidden" name="_redirect" value="http://localhost/unterstuetzen.html">
 
 <label for="name2">Name</label>
 <input type="text" id="name2" name="name" placeholder="Ihr Name" required>
@@ -87,6 +82,22 @@ Danke für Ihre Unterstützung – zusammen geben wir den Korallenriffen Hoffnun
 </section>
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // alle Formulare auf der Seite
+    const forms = document.querySelectorAll("form.member-form");
+    
+    forms.forEach(form => {
+        form.addEventListener("submit", function(e) {
+            // kleine Verzögerung, damit Formspree die Daten abschicken kann
+            setTimeout(() => {
+                form.reset(); // Felder leeren
+            }, 100);
+        });
+    });
+});
+</script>
 
 </body>
 </html>
