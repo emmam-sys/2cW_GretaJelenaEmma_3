@@ -84,14 +84,13 @@ Danke für Ihre Unterstützung – zusammen geben wir den Korallenriffen Hoffnun
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    // alle Formulare auf der Seite
+
     const forms = document.querySelectorAll("form.member-form");
     
     forms.forEach(form => {
         form.addEventListener("submit", function(e) {
-            // kleine Verzögerung, damit Formspree die Daten abschicken kann
             setTimeout(() => {
-                form.reset(); // Felder leeren
+                form.reset(); // 
             }, 100);
         });
     });
