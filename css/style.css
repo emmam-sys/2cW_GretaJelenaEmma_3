@@ -1,6 +1,4 @@
-/* =====================================
-   GRUNDDESIGN
-===================================== */
+/*GRUNDDESIGN*/
  
 * {
   margin: 0;
@@ -22,9 +20,7 @@ body {
 }
  
  
-/* =====================================
-   NAVIGATION
-===================================== */
+/* NAVIGATION*/
  
 nav {
   position: fixed;
@@ -50,9 +46,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   TITELBEREICH
-===================================== */
+/* TITELBEREICH */
  
 .title-box {
   position: absolute;
@@ -69,10 +63,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   HAUPTINHALT
-   Erscheint beim Scrollen
-===================================== */
+/* HAUPTINHALT Erscheint beim Scrollen*/
  
 .content {
   margin-top: 100vh;
@@ -103,9 +94,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   EINLEITUNG
-===================================== */
+/*EINLEITUNG */
  
 .intro h2 {
   font-size: 38px;
@@ -117,9 +106,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   BILD + TEXT
-===================================== */
+/*BILD + TEXT */
  
 .info-section {
   display: flex;
@@ -165,9 +152,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   SLOGAN
-===================================== */
+/*SLOGAN */
  
 .slogan {
   text-align: center;
@@ -180,9 +165,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   AKTUELLES
-===================================== */
+/*AKTUELLES*/
  
 .news h2 {
   font-size: 38px;
@@ -194,9 +177,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   UNSERE ZIELE
-===================================== */
+/* UNSERE ZIELE*/
  
 .goals {
   text-align: center;
@@ -232,9 +213,7 @@ nav a:hover {
 }
  
  
-/* =====================================
-   RESPONSIVE DESIGN
-===================================== */
+/*RESPONSIVE DESIGN*/
  
 @media screen and (max-width: 1000px) {
   .titel {
@@ -294,13 +273,12 @@ nav a:hover {
 
 
 /* Titel für alle Unterseiten */
+
 .page-title {
     text-align: center;   /* mittig */
     margin-top: 120px;    /* Abstand nach oben wegen Navigation */
     font-size: 40px;      /* größer machen */
 }
-
-
 
 /*Gemeinsam geben wir... und slogan lila*/
 
@@ -312,16 +290,7 @@ text-align:center;
 }
 
 
-
-/*Jelena*/
-
-/* ================================
-ERFOLGE SEITE
-================================ */
-
-/* =====================================
-   ERFOLGE SEITE
-===================================== */
+/* ERFOLGE SEITE */
  
 .page-title {
   text-align: center;
@@ -338,9 +307,7 @@ ERFOLGE SEITE
   padding: 0 20px 60px 20px;
 }
  
-/* =====================================
-   SLOGAN / EINLEITUNG
-===================================== */
+/* SLOGAN / EINLEITUNG */
  
 .erfolge-header {
   margin-bottom: 30px;
@@ -361,9 +328,7 @@ ERFOLGE SEITE
   font-size: 32px;
 }
  
-/* =====================================
-   VIDEO
-===================================== */
+/* VIDEO */
  
 .video-section {
   max-width: 1000px;
@@ -391,9 +356,7 @@ ERFOLGE SEITE
   display: block;
 }
  
-/* =====================================
-   ZUSAMMENARBEIT
-===================================== */
+/* ZUSAMMENARBEIT*/
  
 .partner-link-section {
   max-width: 900px;
@@ -431,9 +394,7 @@ ERFOLGE SEITE
   transform: scale(1.04);
 }
  
-/* =====================================
-   4 BEISPIELE UNSERER ERFOLGE
-===================================== */
+/* 4 BEISPIELE UNSERER ERFOLGE */
  
 .success-examples {
   max-width: 1100px;
@@ -469,9 +430,7 @@ ERFOLGE SEITE
   line-height: 1.6;
 }
  
-/* =====================================
-   ZAHLEN / STATISTIK
-===================================== */
+/* ZAHLEN / STATISTIK */
  
 .numbers-section {
   max-width: 1100px;
@@ -507,9 +466,7 @@ ERFOLGE SEITE
   line-height: 1.5;
 }
  
-/* =====================================
-   PARTNER
-===================================== */
+/* PARTNER */
  
 .partners-section {
   max-width: 900px;
@@ -536,9 +493,7 @@ ERFOLGE SEITE
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.20);
 }
  
-/* =====================================
-   MEDIEN
-===================================== */
+/*MEDIEN */
  
 .media-section {
   max-width: 900px;
@@ -567,9 +522,7 @@ ERFOLGE SEITE
   margin-bottom: 0;
 }
  
-/* =====================================
-   RESPONSIVE
-===================================== */
+/*RESPONSIVE */
  
 @media screen and (max-width: 1000px) {
   .success-grid,
@@ -604,9 +557,7 @@ ERFOLGE SEITE
 
 /* Über uns Seite*/
 
-/* ========================================
-   ÜBER UNS - HAUPTBEREICH
-======================================== */
+/*  HAUPTBEREICH */
  
 .about-page {
   min-height: 100vh;
@@ -614,9 +565,7 @@ ERFOLGE SEITE
   color: white;
 }
  
-/* ========================================
-   TITEL
-======================================== */
+/* TITEL*/
  
 .about-header {
   text-align: center;
@@ -629,10 +578,7 @@ ERFOLGE SEITE
   font-weight: bold;
 }
  
-/* ========================================
-   GESCHICHTE
-   Links Text, rechts 3 Bilder
-======================================== */
+/* GESCHICHTE */
  
 .about-story {
   max-width: 1100px;
@@ -677,9 +623,7 @@ ERFOLGE SEITE
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
 }
  
-/* ========================================
-   ENTWICKLUNG
-======================================== */
+/*ENTWICKLUNG*/
  
 .about-development {
   max-width: 1100px;
@@ -705,9 +649,7 @@ ERFOLGE SEITE
   margin-bottom: 16px;
 }
  
-/* ========================================
-   PARTNER LINK
-======================================== */
+/* PARTNER LINK */
  
 .about-partner-link {
   max-width: 1100px;
@@ -732,9 +674,7 @@ ERFOLGE SEITE
   transform: scale(1.03);
 }
  
-/* ========================================
-   TEAM
-======================================== */
+/* TEAM */
  
 .about-team {
   max-width: 1100px;
@@ -815,9 +755,7 @@ ERFOLGE SEITE
 
 /* Unterstützen Sie uns*/
 
-/* ========================================
-   UNTERSTÜTZEN SIE UNS - HAUPTBEREICH
-======================================== */
+/* HAUPTBEREICH */
  
 .support-page {
   min-height: 100vh;
@@ -825,9 +763,7 @@ ERFOLGE SEITE
   color: white;
 }
  
-/* ========================================
-   TITEL
-======================================== */
+/* TITEL */
  
 .support-header {
   text-align: center;
@@ -840,12 +776,7 @@ ERFOLGE SEITE
   font-weight: bold;
 }
  
-/* ========================================
-   HAUPTBEREICH NACH PLAN
-   LINKS FORMULAR
-   MITTE BILD
-   RECHTS TEXT
-======================================== */
+/* HAUPTBEREICH  */
  
 .support-main-section {
   max-width: 1200px;
@@ -856,9 +787,7 @@ ERFOLGE SEITE
   align-items: stretch;
 }
  
-/* ========================================
-   FORMULAR BOX
-======================================== */
+/* FORMULAR BOX */
  
 .support-form-box {
   background: rgba(255, 255, 255, 0.10);
@@ -879,9 +808,7 @@ ERFOLGE SEITE
   margin-bottom: 18px;
 }
  
-/* ========================================
-   FORMULAR
-======================================== */
+/* FORMULAR */
  
 .member-form {
   display: flex;
@@ -926,9 +853,7 @@ ERFOLGE SEITE
   transform: scale(1.03);
 }
  
-/* ========================================
-   BILD BOX
-======================================== */
+/* BILD BOX */
  
 .support-image-box {
   background: rgba(255, 255, 255, 0.10);
@@ -973,9 +898,7 @@ ERFOLGE SEITE
   margin-bottom: 16px;
 }
  
-/* ========================================
-   ABSCHLUSS UNTEN
-======================================== */
+/* ABSCHLUSS UNTEN*/
  
 .support-bottom-note {
   max-width: 900px;
@@ -987,9 +910,7 @@ ERFOLGE SEITE
   backdrop-filter: blur(6px);
 }
  
-/* ========================================
-   RESPONSIVE DESIGN
-======================================== */
+/*RESPONSIVE DESIGN */
  
 @media screen and (max-width: 1000px) {
   .support-main-section {
