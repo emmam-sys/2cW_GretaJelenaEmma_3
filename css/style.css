@@ -130,6 +130,13 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.info-section img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 14px;
+  display: block;
+}
  
 .text-box {
   flex: 1;
