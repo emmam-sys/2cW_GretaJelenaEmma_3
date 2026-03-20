@@ -875,28 +875,6 @@ text-align:center;
   display: block;
 }
  
-/* ========================================
-   TEXT BOX RECHTS
-======================================== */
- 
-.support-text-box {
-  background: rgba(255, 255, 255, 0.10);
-  padding: 25px;
-  border-radius: 18px;
-  backdrop-filter: blur(6px);
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
-}
- 
-.support-text-box h2 {
-  margin-top: 0;
-  color: #ffe066;
-  font-size: 30px;
-}
- 
-.support-text-box p {
-  line-height: 1.7;
-  margin-bottom: 16px;
-}
  
 /* ABSCHLUSS UNTEN*/
  
